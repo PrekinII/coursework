@@ -231,8 +231,8 @@
 .posts-title {
     /* font-family: "OpenSans", "sans-serif"; */
     /* src: url(../fonts/OpenSans-Bold.woff);*/
-    font-size: 20px; 
-    line-height: 24px;
+    /* font-size: 20px; 
+    line-height: 24px; */
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -270,6 +270,8 @@ h3 {
     color: #0f0d0e;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .title-post:hover {
