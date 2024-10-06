@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "opensans";
-    src: url(../fonts/OpenSans-Regular.woff);
+    font-family: "OpenSans";
+    src: url('https://prekinii.github.io/coursework/fonts/OpenSans-Regular.ttf');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "opensans";
-    src: url(../fonts/OpenSans-Bold.woff);
+    font-family: "OpenSans";
+    src: url('https://prekinii.github.io/coursework/fonts/OpenSans-Bold.woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -19,10 +19,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .page-elements {
-    font-family: "opensans", "arial", "sans-serif";
+    font-family: "OpenSans", "arial", "sans-serif";
     text-transform: uppercase;
 }
 
@@ -50,7 +51,7 @@
     
     color: hsl(0, 0%, 100%);
     /*width: 1660px;*/
-    height: 450px;
+    min-height: 450px;
     text-align: center;
     /*text-transform: uppercase;*/
     padding-top: 28px;
@@ -80,7 +81,7 @@
 .top-panel {
     display: flex;
     align-items: center;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     justify-content: space-between;
     margin-right: 14.8%;
     margin-left: 15%;
@@ -100,12 +101,12 @@
 .menu__list-item {
     list-style-type: none;
     font-size: 13px;
-    font-family: Open Sans, sans-serif;
+    /* font-family: "OpenSans", "sans-serif"; */
     /*src: url(../fonts/OpenSans-Regular.woff)*/
 }
 
 .menu__list-item:nth-child(n+2) {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .menu__link {
@@ -118,15 +119,14 @@
 }
 
 
-
-.trends {
-    /*width: 1660px;*/
-}
+/* .trends {
+    width: 1660px;
+} */
 
 .title-trends {
     font-size: 20px;
     line-height: 29.15px;
-    font-family: Open Sans, sans-serif;
+    font-family: "OpenSans", "sans-serif";
     src: url(../fonts/OpenSans-Bold.woff);
     /*margin-left: 739px;*/
     text-align: center;
@@ -145,6 +145,7 @@
     margin-top: 30px;
     margin-bottom: 5px;
     gap: 0.23%;
+    font-weight: 700;
 }
 
 .trends-card {
@@ -211,7 +212,7 @@
 }
 
 .category-link {
-    font-family: Open Sans, sans-serif;
+    /* font-family: "OpenSans", "sans-serif"; */
     src: url(../fonts/OpenSans-Bold.woff);
     line-height: 40px;
     color: #b59f5b;
@@ -228,9 +229,9 @@
 }
 
 .posts-title {
-    font-family: Open Sans, sans-serif;
-    src: url(../fonts/OpenSans-Bold.woff);
-    font-size: 20px;
+    /* font-family: "OpenSans", "sans-serif"; */
+    /* src: url(../fonts/OpenSans-Bold.woff);*/
+    font-size: 20px; 
     line-height: 24px;
     text-transform: uppercase;
     text-decoration: none;
@@ -239,7 +240,7 @@
      
     display: flex;
     padding-right: 30px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
 
 .posts-title:hover {
@@ -282,6 +283,7 @@ h3 {
     height: 70px;
     margin-top: -5px;
     height: fit-content;
+    font-weight: 700;
 }
 
 .categories-articlebox {
